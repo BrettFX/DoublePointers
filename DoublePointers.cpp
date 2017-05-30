@@ -25,5 +25,11 @@ Displays a descriptive table mapping the memory addresses of the double pointer 
 */
 template<class T>
 void displayMemoryTable(T** dblPtr){
-	cout << **dblPtr << "\n";
+	cout << "+********+********+********+*******+\n";
+	cout << "|Variable| Degree | Address| Data  |\n";
+	cout << "|********|********|********|*******|\n";
+	cout << "|        |        |        |       |\n";
+	cout << "|********|********|********|*******|\n";
+	cout << "|        |        |        |       |\n";
+	cout << "|********|********|********|*******|\n";
 }
