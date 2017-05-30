@@ -1,5 +1,5 @@
 #include "DPLinkedList.h"
 
 DPLinkedList::DPLinkedList(){
-	std::cout << "Hello World!\n";
+	std::cout << "Hello darkness my old friend.\n";
 }
